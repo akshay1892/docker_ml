@@ -9,7 +9,7 @@ RUN apt update && apt install -y --no-install-recommends \
     python3-setuptools
 RUN apt-get install ffmpeg libsm6 libxext6 -y
 RUN pip3 -q install pip --upgrade
-# Install all basic packages
+# Install all basic packages h
 RUN pip3 install \
     # Jupyter itself
     jupyter \
