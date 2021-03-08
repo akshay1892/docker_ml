@@ -1,4 +1,5 @@
-FROM nvidia/cuda:10.2-runtime AS jupyter-base
+FROM tensorflow/tensorflow:latest-gpu-jupyter
+#FROM nvidia/cuda:10.2-runtime AS jupyter-base
 WORKDIR /
 # Install Python and its tools
 RUN apt update && apt install -y --no-install-recommends \
