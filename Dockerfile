@@ -31,4 +31,5 @@ RUN pip3 install \
     keras \
     tensorflow \
     sklearn \
-    keras-video-generators
+    keras-video-generators \
+    virtualenv
