@@ -15,7 +15,7 @@ RUN apt-get install ffmpeg libsm6 libxext6 -y
 #RUN apt update
 #RUN apt install nvidia-390
 #RUN apt install nvidia-cuda-toolkit
-RUN apt install --no-install-recommends nvidia-driver-450
+RUN apt install --no-install-recommends nvidia-driver-450 -y
 RUN pip3 -q install pip --upgrade
 # Install all basic packages h
 RUN pip3 install \
