@@ -1,4 +1,5 @@
-FROM tensorflow/tensorflow:latest-gpu-jupyter
+FROM nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
+#FROM tensorflow/tensorflow:latest-gpu-jupyter
 #FROM nvidia/cuda:10.2-runtime AS jupyter-base
 WORKDIR /
 # Install Python and its tools
