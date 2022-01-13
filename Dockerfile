@@ -20,7 +20,7 @@ RUN apt-get install ffmpeg libsm6 libxext6 -y
 RUN pip3 -q install pip --upgrade
 # Install all basic packages h
 RUN pip3 install \
-    # Jupyter itself
+    # Jupyter itself 
     jupyter \
     # Numpy and Pandas are required a-priori
     numpy pandas \
